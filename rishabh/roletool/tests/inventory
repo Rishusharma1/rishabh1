@@ -1,5 +1,8 @@
 [red]
-node1 ansible_user=ubuntu ansible_host=3.111.38.142
+# node1 ansible_user=ubuntu ansible_host=43.204.115.244
+# node2 ansible_user=ubuntu ansible_host=43.204.115.247
+node3 ansible_user=ubuntu ansible_host=65.0.131.52
+# node3 ansible_user=ubuntu ansible_host=65.0.32.88
 # node1 ansible_user=ec2-user ansible_host=13.234.239.156
 #3.110.167.213
 #65.2.121.72
@@ -9,3 +12,5 @@ node1 ansible_user=ubuntu ansible_host=3.111.38.142
 #13.233.61.171
 #15.207.111.78
 #13.235.81.96 65.2.6.29
+
+#["65.0.32.88", "65.0.131.52", "43.204.115.247", "43.204.115.244"]
